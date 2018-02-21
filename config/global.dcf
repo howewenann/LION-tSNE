@@ -1,0 +1,16 @@
+version: 0.8
+data_loading: TRUE
+data_loading_header: TRUE
+data_ignore:
+cache_loading: TRUE
+recursive_loading: FALSE
+munging: FALSE
+logging: FALSE
+logging_level: INFO
+load_libraries: TRUE
+libraries: data.table, FNN, fastcluster, pdist
+as_factors: FALSE
+data_tables: TRUE
+attach_internal_libraries: FALSE
+cache_loaded_data:  TRUE
+sticky_variables: NONE
