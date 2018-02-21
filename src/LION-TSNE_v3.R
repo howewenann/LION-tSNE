@@ -24,6 +24,9 @@ Y = LION_tSNE(X_new = data_X_test, Y_train = data_Y_train, X_train = data_X_trai
 
 
 
+smape(unlist(data_Y_test), unlist(Y$Y))
+
+
 
 
 
